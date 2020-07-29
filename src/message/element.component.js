@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 /** Using `React.createElement` */
-export class MessageElement extends React.Component {
+export class MessageElement extends Component {
     render() {
         return React.createElement("header", {
             className: "App-message-container"

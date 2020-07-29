@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 /** Using `React.Component` */
-export class MessageComponent extends React.Component {
+export class MessageComponent extends Component {
     render() {
         return (
             <header className="App-message-container">

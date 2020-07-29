@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 
 /** Using `React.PureComponent` */
-export class MessagePureComponent extends React.PureComponent {
+export class MessagePureComponent extends PureComponent {
     render() {
         return (
             <header className="App-message-container">
